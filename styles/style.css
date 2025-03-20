@@ -1,0 +1,189 @@
+/* Configuração da página */
+.page {
+  max-width: 1600px;
+  min-width: 1100px;
+  margin: 0 auto;
+  font-size: 16px; /* Corrigido conforme o roteiro */
+  line-height: 20px; /* Ajustado para corresponder ao roteiro */
+}
+
+/* Ajustes no cabeçalho */
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 800px; /* Ajustado conforme o roteiro */
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Ajustes na navegação */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Ajustando a logo da navegação */
+.nav__logo {
+  width: 58px;
+  height: 80px;
+}
+
+/* Ajustes nos links de navegação */
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none; /* Removendo os marcadores */
+  padding: 0;
+  margin-top: 8px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Ajustes no conteúdo do cabeçalho */
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+  max-width: 635px;
+  margin-top: 128px;
+}
+
+.header__description {
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 515px;
+  margin-top: 32px;
+}
+
+/* Ajustes na imagem do cabeçalho */
+.header__image {
+  max-width: 636px;
+}
+
+/* Ajustes no rodapé do cabeçalho */
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.header__address {
+  margin: 0;
+  color: #838383;
+  position: absolute;
+  bottom: 80px; /* Mantém a posição na parte inferior */
+  right: 80px; /* Move para a direita */
+  font-size: 16px;
+}
+
+/* ========================================== */
+/* Seção "Escolhas da Equipe" */
+/* ========================================== */
+
+.staff {
+  background-image: url("../images/staff_picks_background.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+/* Título da seção */
+.staff__title {
+  text-align: center;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 400;
+  margin: 0 0 24px;
+  color: #ffffff;
+}
+
+/* Subtítulo da seção */
+.staff__subtitle {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0 0 24px; /* Ajuste correto */
+  color: #ffffff;
+}
+
+/* Contêiner para os cartões */
+.staff__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Permite quebra de linha */
+  gap: 40px; /* Mantém o espaçamento correto */
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 760px;
+  margin-top: 40px;
+}
+
+/* Estilização dos cartões */
+.card {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 32px 40px 20px 32px;
+  box-sizing: border-box;
+  width: 360px; /* Faz dois cartões por linha com espaço entre eles */
+  max-width: 360px; /* Define o tamanho máximo correto */
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilização do conteúdo dos cartões */
+.card__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Título do cartão */
+.card__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Texto do cartão */
+.card__text {
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Rodapé do cartão */
+.card__footer {
+  margin-top: auto;
+  margin-bottom: 16px; /* Ajuste para não colar no final */
+  margin-left: 32px; /* Ajuste para não encostar nas bordas */
+  margin-right: 32px; /* Ajuste para manter simetria */
+  font-size: 14px;
+  line-height: 20px;
+  color: #838383;
+}
