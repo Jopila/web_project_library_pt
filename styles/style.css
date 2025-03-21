@@ -187,3 +187,8 @@
   line-height: 20px;
   color: #838383;
 }
+/* Adicionando a classe .header__link conforme solicitado */
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
