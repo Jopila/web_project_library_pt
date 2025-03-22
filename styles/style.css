@@ -123,7 +123,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 0 0 24px; /* Ajuste correto */
+  margin: 0; /* Ajuste correto */
   color: #ffffff;
 }
 
@@ -138,7 +138,7 @@
   padding: 0;
   margin: 0 auto;
   max-width: 760px;
-  margin-top: 40px;
+  margin-top: 68px;
 }
 
 /* Estilização dos cartões */
@@ -180,9 +180,9 @@
 /* Rodapé do cartão */
 .card__footer {
   margin-top: auto;
-  margin-bottom: 16px; /* Ajuste para não colar no final */
-  margin-left: 32px; /* Ajuste para não encostar nas bordas */
-  margin-right: 32px; /* Ajuste para manter simetria */
+  margin-bottom: 0; /* Ajuste para não colar no final */
+  margin-left: 0; /* Ajuste para não encostar nas bordas */
+  margin-right: 0; /* Ajuste para manter simetria */
   font-size: 14px;
   line-height: 20px;
   color: #838383;
